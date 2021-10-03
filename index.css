@@ -1,0 +1,153 @@
+/* ---------------- Pagina Index --------------- */
+header{
+    display: flex;
+    background-color: 
+    #f3f2f2;
+   
+        
+}
+main img{
+    margin-top: 10px;
+}
+nav{
+    margin-left: 20%;
+    margin-top: 70px;
+    
+    
+}
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #0e0d0d;
+    font-weight: bolder;
+    padding:20px;
+
+}
+nav a:hover{
+    color: #dcb44c;
+    border: black solid 2px;    
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+
+}
+
+main div{
+    padding: 5%;
+}
+
+main p{
+    font-size: 20px;
+    text-align: center;
+    margin: 2% 5% 4% 5%;
+
+}
+hr{
+    width: 8%;
+    height: 8px;
+    background-color:#dcb44c;
+    color: #dcb44c;
+}
+article{
+    display: flex;
+    justify-content: center;
+    background-color: #f3f2f2;
+    padding: 5%;
+}
+article div{
+    margin-left: 5%;
+    
+}
+div li{
+    font-size: 20px;
+}
+div h3{
+    font-size: 25px;
+}
+#notificacoes{
+    height: 250px;
+    text-align: center;
+    padding-top: 5%;
+   }
+#notificacoes h3{
+    font-size: 30px;
+}
+#notificacoes input{
+    height: 9%;
+    width: 25%;
+}
+ button{
+    width: 7%;
+   height: 1.6em;
+   font-size: 20px;
+   font-weight: bolder;
+   background-color: #dcb44c;
+   color: white;
+}
+
+
+footer div img{
+    width: 2%;
+    background-color: white;
+   
+    
+}
+footer{
+    background-color:#858181 ;
+    text-align: center;
+    padding-top: 3px;
+    color: white;
+}
+
+/* --------------- Pagina Serviços --------------- */
+
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    
+
+}
+
+.servicos{
+    display: flex;
+}
+.servicos img{
+   box-shadow: #dcb44c -15px -10px 5px;
+ 
+}
+.servicos1 {
+    display: flex;
+    background-color: #f3f2f2;
+}
+.servicos1 img{
+    box-shadow: #dcb44c  15px 10px 5px;
+  
+ }
+ .servicos1 div h2{
+     font-size: 25px;
+ }
+ .servicos div h2{
+    font-size: 25px;
+}
+
+/* -------------- Pagina de Contatos -------------- */
+
+#contatos{
+    text-align: center;
+}
+
+#contatos input{
+    height: 40px;
+    width: 50%;
+    letter-spacing: 4px;
+    margin-top: 2%;
+}
+#contatos textarea{
+    height: 150px;
+    width: 50%;
+    margin-top: 2%;
+}
+
+
